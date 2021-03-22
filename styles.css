@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: url("https://www.gannett-cdn.com/presto/2018/09/07/PBRE/2a0dc85f-d649-49fe-9c0a-843cf84c07a0-telstar19v_launch1.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+
+.main-header{
+  box-sizing: border-box;
+  border: transparent;
+  background-color: rgba(0, 0, 0, 0.289);
+  height: 10vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+.title{
+  color: white;
+  font-size: 50px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.shop{
+  color:white;
+  background-color: transparent;
+  border: transparent;
+  
+}
+.hamburger{
+  height: 26px;
+  width: 26px;
+  ;
+}
+.background{
+  height: 150vh;
+  width: 100%;
+  margin: 0;
+  }
+  .bottom-text{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  .rect-laun{
+    font-size: 20px;
+    color: aliceblue;
+    
+  }
+  .launch-name{
+  
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  .replay{
+    box-sizing: border-box;
+    width: 20vh;
+    height: 10vh;
+    padding: 25px 30px;
+    border: solid;
+    border-color: rgb(250, 245, 245);
+    background-color:transparent;
+    font-size: 20px;
+    font-weight: bold;
+    transition: linear;
+    transition-duration: .5s;
+    color: aliceblue;
+   }
+  .replay:hover{
+    background-color: black;
+    color: white;
+  }
